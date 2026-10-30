@@ -185,8 +185,8 @@ struct pw_userdata {
     struct spa_hook_list hooks;
     struct spa_interface node_iface;
     uint32_t props_serial;
-    struct pw_impl_metadata *sva_metadata;
-    uint32_t sva_node_id;
+    struct pw_impl_metadata *sva_metadata;   
+    uint32_t sva_node_id;                    
 
     /* FNN+ DOA polling via metadata */
     struct pw_impl_metadata *doa_metadata;
